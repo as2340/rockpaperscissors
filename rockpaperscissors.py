@@ -32,7 +32,7 @@ import random
 # create list of ascii art stings
 rock_paper_scissors = [rock, paper, scissors]
 
-# use input is the index of the list of ascii strings
+# user input is the index of the list of ascii strings
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
 # print out user's ascii art
 print(rock_paper_scissors[user_choice])
